@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NET 8.0](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/)
 
-Um protótipo de software desktop focado na edição de mapas de injeção e ignição para entusiastas automotivos. Este projeto abstrai a complexidade dos bytes hexadecimais em interfaces visuais intuitivas.
+Um protótipo de software desktop focado na edição de mapas de injeção e ignição para entusiastas (profissionais ou leigos) automotivos. Este projeto dilui os hexadecimais e bytes em uma interface limpa para o usuário conseguir entender e mexer, facilitando para todos.
 
 ## Objetivo do Projeto
 
