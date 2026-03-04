@@ -7,7 +7,7 @@ Um protótipo de software desktop focado na edição de mapas de injeção e ign
 
 ## Objetivo do Projeto
 
-Desenvolver uma ferramenta que permita a entusiastas "raiz" modificarem parâmetros de performance de seus veículos sem a necessidade de conhecimentos profundos em Ciência da Computação. O foco é a **segurança dos dados** e a **usabilidade mecânica**.
+Desenvolver uma ferramenta que permita a entusiastas modificarem parâmetros de performance de seus veículos sem a necessidade de conhecimentos profundos em Mecânica Automotiva. O foco é a **segurança dos dados** e a **usabilidade mecânica**.
 
 ## Funcionalidades Principais
 
@@ -18,21 +18,17 @@ Desenvolver uma ferramenta que permita a entusiastas "raiz" modificarem parâmet
 
 ## Tecnologias Utilizadas
 
-- **Linguagem:** C# (.NET 8)
+- **Linguagem:** C#
+- **Banco de Dados:** MySQL (Futuramente Oracle).
 - **Interface:** WPF (Windows Presentation Foundation) com padrão MVVM.
 - **Manipulação de Dados:** System.IO (BinaryReader/Writer) e LINQ.
-- **Estética:** Custom UI baseada em Dashboards Industriais.
-
-## Como o Código está Organizado
-
-- `/Models`: Classes base como `EcuMap.cs` (Contém lógica de endereços e conversão).
-- `/Services`: Lógica de leitura e escrita de arquivos `.bin`.
-- `/Views`: Interfaces gráficas robustas em XAML.
+- **Estética:** Custom UI com opções minimalistas, industriais ou 100% personalizáveis.
 
 ## Roadmap de Desenvolvimento
 
 - [x] Leitura de arquivos binários e conversão para decimal.
 - [ ] Implementação de interface gráfica com tabelas editáveis.
+- [ ] Criação BD.
 - [ ] Criação de gráficos 3D interativos.
 - [ ] Integração com hardware de leitura OBD-II (Futuro).
 
